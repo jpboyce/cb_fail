@@ -18,3 +18,5 @@ issues_url 'https://github.com/jpboyce/cb_fail/issues'
 # a Supermarket.
 #
 source_url 'https://github.com/jpboyce/cb_fail'
+
+depends 'chef_handler'
