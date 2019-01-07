@@ -13,13 +13,13 @@ verifier:
   name: inspec
 
 platforms:
-  - name: ubuntu-16.04
-  - name: centos-7
+  - name: windows2016
+  #- name: centos-7
 
 suites:
   - name: default
     run_list:
-      - recipe[cb_fail::default]
+      - recipe[cb_fail::00_handlers]
     verifier:
       inspec_tests:
         - test/integration/default
